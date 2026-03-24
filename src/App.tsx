@@ -18,7 +18,14 @@ export function App() {
   return (
     <Routes>
       {/* Public Routes */}
-      <Route path={routesDocument.landing} element={<Landing />} />
+      <Route 
+        path={routesDocument.landing} 
+        element={
+          <PublicLayout>
+            <Landing />
+          </PublicLayout>
+        } 
+      />
       <Route 
         path={routesDocument.login} 
         element={

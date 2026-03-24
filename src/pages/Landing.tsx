@@ -14,7 +14,7 @@ import {
 
 export function Landing() {
   return (
-    <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30">
+    <div className="flex flex-col text-foreground selection:bg-primary/30">
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20 lg:py-32 px-6">
         <div className="absolute inset-0 z-0 bg-linear-to-tr from-primary/10 via-background to-background" />
